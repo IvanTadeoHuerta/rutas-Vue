@@ -3,6 +3,8 @@
     <header>
     <h1>Ivan Tadeo Huerta</h1>
     </header>
+    <router-link to="/">Home</router-link>
+    <router-link to="/editar">editar</router-link>
     <router-view></router-view>
   </div>
 </template>
