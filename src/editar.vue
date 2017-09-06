@@ -35,7 +35,7 @@ export default {
     }
   },
  created: function () { 
-     
+     console.log('wooooooooo')
   },
   mounted: function () {
     

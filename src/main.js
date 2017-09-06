@@ -4,7 +4,10 @@ import VueRouter from 'vue-router'
 import routes from './router.js'
 
 Vue.use(VueRouter)
-const router = new VueRouter({ routes })
+const router = new VueRouter({ 
+  routes ,
+  mode: 'history'
+})
 
 new Vue({
   el: '#app',
